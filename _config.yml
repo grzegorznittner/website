@@ -5,8 +5,6 @@
    hard_wrap: false
  future: true
  jailed: false
- theme: jekyll-theme-primer
+ theme: jekyll-theme-architect
  gfm_quirks: paragraph_end
  
-
-theme: jekyll-theme-architect
