@@ -8,8 +8,17 @@ sitemap:
   priority: 0.8
 header_class: "landing"
 ---
-<div class="landing-page-content">
-
+<div>
+Greg's Page
 </div>
 
+<div class="posts">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
